@@ -1,9 +1,8 @@
 .header {
-  padding: 12px 14px;
+  padding: 10px;
   display: flex;
   position: sticky;
   background-color: #5d2e8e;
-  top: 0;
   z-index: 100;
 }
 
@@ -19,12 +18,11 @@
 .header__search {
   display: flex;
   background-color: #fff;
-  padding: 5px;
-  margin-left: 250px;
+  padding: 6px;
+  margin-left: 215px;
   border-radius: 999px;
-  flex: 0.4;
   margin-bottom: 5px;
-  align-items: center;
+  margin-top: 5px;
 }
 
 .header__search > input {
@@ -32,7 +30,10 @@
   background-color: transparent;
   outline-width: 0;
   height: 12px;
-  padding-left: 8px;
+  padding-left: 10px;
+  margin: auto;
+  width: 400px;
+  color: gray;
 }
 
 .header__search > .MuiSvgIcon-root {
@@ -55,5 +56,9 @@
 
 .header__info > span > .MuiSvgIcon-root {
   color: #fff;
-  font-size: 30px;
+  font-size: 25px;
+}
+
+.header__info > span:hover > .MuiSvgIcon-root {
+  color: gray;
 }
