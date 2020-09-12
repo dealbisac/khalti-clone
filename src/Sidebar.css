@@ -1,9 +1,24 @@
 .sidebar {
-  padding: 25px 10px;
-  flex: 0.33;
+  display: flex;
+  flex-direction: column;
+  flex: 0.16;
+  padding-top: 10px;
 }
 
 .sidebar__info {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.sidebar__info > h5 {
+  font-size: 15px;
+}
+
+.sidebar__info > p {
+  font-size: 12px;
+}
+
+.sidebar__menu {
+  border-top: 1px solid gray;
 }

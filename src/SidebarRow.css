@@ -1,7 +1,7 @@
 .sidebarRow {
   display: flex;
   align-items: center;
-  padding: 15px;
+  padding: 10px;
   cursor: pointer;
 }
 

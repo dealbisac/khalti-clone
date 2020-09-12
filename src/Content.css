@@ -1,0 +1,36 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  flex: 0.7;
+  background-color: lightgray;
+  margin-left: 5px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+.content__title {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ebe5f0;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.content__title > span {
+  display: flex;
+  align-content: flex-start;
+  align-content: space-between;
+}
+
+.content__title > span > .MuiSvgIcon-root {
+  font-size: 50px;
+  background-color: white;
+  border-radius: 50px;
+  color: #5d2e8e;
+}
+
+.content__title > span > p {
+  margin-left: 5px;
+}

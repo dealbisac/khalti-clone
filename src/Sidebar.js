@@ -1,5 +1,5 @@
 import React from 'react';
-import './Wallet.css';
+import './Sidebar.css';
 import SidebarRow from './SidebarRow';
 import { Avatar } from '@material-ui/core';
 import HomeOutlinedIcon from '@material-ui/icons/HomeOutlined';
@@ -22,8 +22,8 @@ function Sidebar() {
     return (
         <div className="sidebar">
             <div className="sidebar__info">
-                <Avatar />
-                <strong>Username</strong>
+                <Avatar src="https://scontent.fktm8-1.fna.fbcdn.net/v/t31.0-8/18671644_1435011846555951_2725551300143052066_o.jpg?_nc_cat=111&_nc_sid=09cbfe&_nc_ohc=s8VAYODIolcAX-oyAau&_nc_ht=scontent.fktm8-1.fna&oh=b4ee544b48aeb0ad8bf85244a47df127&oe=5F820EF1" />
+                <h5>Dipendra Bdr. Chand</h5>
                 <p>chand.dipendra19@gmail.com</p>
                 <p>9843681599</p>
             </div>
@@ -43,9 +43,7 @@ function Sidebar() {
                 <SidebarRow Icon={MonetizationOnOutlinedIcon} title="My Earnings" />
                 <SidebarRow Icon={EqualizerOutlinedIcon} title="My Limits" />
                 <SidebarRow Icon={HowToVoteIcon} title="Voting" />
-
             </div>
-
         </div>
     );
 }

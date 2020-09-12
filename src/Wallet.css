@@ -1,0 +1,116 @@
+.wallet {
+  display: flex;
+  flex-direction: column;
+  flex: 0.15;
+  margin-left: 15px;
+  margin-right: 5px;
+}
+
+.wallet__top {
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.wallet__top > h5 {
+  background-color: #f1f1f1;
+  padding: 12px 8px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+.wallet__top > h5 > button {
+  margin-left: 3px;
+  background-color: #00b5ad;
+  color: white;
+  outline-color: #00b5ad;
+  border-radius: 5px;
+  font-size: x-small;
+  padding: 4px;
+}
+
+.wallet__top > h5 > p {
+  font-weight: 200;
+  font-size: large;
+}
+
+.wallet__top > h5 > p > span {
+  font-weight: 600;
+  font-size: large;
+}
+
+.wallet__top-one {
+  display: flex;
+  align-content: center;
+  padding: 10px;
+  background-color: #f1fbfb;
+  margin-bottom: 5px;
+}
+
+.wallet__top-one > .MuiSvgIcon-root {
+  font-size: 40px;
+  background-color: #00b5af;
+  color: white;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.wallet__top-one > span {
+  font-weight: 500;
+}
+
+.wallet__top-two {
+  display: flex;
+  align-content: center;
+  padding: 10px;
+  background-color: #fff9f0;
+  margin-bottom: 5px;
+}
+
+.wallet__top-two > .MuiSvgIcon-root {
+  font-size: 40px;
+  background-color: #faa61a;
+  color: white;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.wallet__top-two > span {
+  font-weight: 450;
+}
+
+.wallet__top-three {
+  display: flex;
+  align-content: center;
+  padding: 10px;
+  background-color: #f4f1fb;
+  margin-bottom: 5px;
+}
+
+.wallet__top-three > .MuiSvgIcon-root {
+  font-size: 40px;
+  background-color: #7947b2;
+  color: white;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.wallet__top-three > span {
+  font-weight: 500;
+}
+
+.wallet__bottom {
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.wallet__bottom > h5 {
+  font-weight: 100px;
+  margin-bottom: 5px;
+}
+
+.wallet__bottom > p {
+  font-size: 12px;
+}
