@@ -17,15 +17,18 @@ import SimCardOutlinedIcon from '@material-ui/icons/SimCardOutlined';
 import MonetizationOnOutlinedIcon from '@material-ui/icons/MonetizationOnOutlined';
 import EqualizerOutlinedIcon from '@material-ui/icons/EqualizerOutlined';
 import HowToVoteIcon from '@material-ui/icons/HowToVote';
+import { useStateValue } from './StateProvider';
 
 function Sidebar() {
+    const [{ user }, dispatch] = useStateValue();
+
     return (
         <div className="sidebar">
             <div className="sidebar__info">
-                <Avatar src="https://scontent.fktm8-1.fna.fbcdn.net/v/t31.0-8/18671644_1435011846555951_2725551300143052066_o.jpg?_nc_cat=111&_nc_sid=09cbfe&_nc_ohc=s8VAYODIolcAX-oyAau&_nc_ht=scontent.fktm8-1.fna&oh=b4ee544b48aeb0ad8bf85244a47df127&oe=5F820EF1" />
-                <h5>Dipendra Bdr. Chand</h5>
-                <p>chand.dipendra19@gmail.com</p>
-                <p>9843681599</p>
+                <Avatar src={user.photoURL} />
+                <h5>{user.displayName}</h5>
+                <p>{user.email}</p>
+                <p>{user.phone ? user.phone : '9843-XXXXX'}</p>
             </div>
             <div className="sidebar__menu">
                 <SidebarRow Icon={HomeOutlinedIcon} title="Home" />
