@@ -1,0 +1,28 @@
+.services {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 5px;
+}
+
+.services > center > .MuiSvgIcon-root {
+  font-size: 50px;
+  color: #5d2e8e;
+  margin-bottom: 5px;
+}
+
+.services > center > h6 {
+  font-weight: 400;
+  font-size: medium;
+  margin-bottom: 5px;
+}
+
+.services > center > p {
+  font-weight: 400;
+  font-size: small;
+  background-color: #ebe5f0;
+  color: #5d2e8e;
+  border-radius: 50px;
+  padding: 3px;
+}

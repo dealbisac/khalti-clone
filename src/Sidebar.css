@@ -12,13 +12,14 @@
 }
 
 .sidebar__info > h5 {
-  font-size: 15px;
+  margin-top: 10px;
+  font-size: 18px;
 }
 
 .sidebar__info > p {
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .sidebar__menu {
-  border-top: 1px solid gray;
+  border-top: 1px solid #f4f4f4;
 }
