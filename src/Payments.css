@@ -1,0 +1,22 @@
+.payments {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 5px;
+}
+
+.payments > center > img {
+  height: 85px;
+  width: 85px;
+  object-fit: contain;
+  box-shadow: 0px 0px 1px 1px lightgrey;
+  padding: 7px;
+  border-radius: 10px;
+}
+
+.payments > center > h6 {
+  font-weight: 400;
+  font-size: medium;
+  margin-bottom: 5px;
+}

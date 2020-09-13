@@ -59,3 +59,25 @@
   z-index: 1;
   margin: 0px 5px 15px 5px;
 }
+
+.content__main-servicestwo {
+  border-bottom: 1px solid #d4d4d4;
+  margin-bottom: 10px;
+}
+
+.content__main-services > .content__main-servicestwo > h6 {
+  font-weight: 500;
+  font-size: small;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  margin-left: 25px;
+}
+
+.content__main-services > .content__main-servicestwo > h6 > a {
+  font-weight: 500;
+  font-size: small;
+  color: #5d2e8e;
+  margin-bottom: 12px;
+  margin-left: 600px;
+  text-decoration: none;
+}
